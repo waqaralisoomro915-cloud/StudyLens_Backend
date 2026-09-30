@@ -1,0 +1,3 @@
+# Same runtime includes Tesseract and PyMuPDF. Compose reuses the backend image.
+FROM studylens-backend:local
+CMD ["celery","-A","config","worker","--loglevel=info","--concurrency=2"]

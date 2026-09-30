@@ -1,0 +1,4 @@
+-r requirements.lock
+pytest>=8.3,<9
+pytest-django>=4.11,<5
+ruff>=0.12,<1

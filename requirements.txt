@@ -1,0 +1,12 @@
+Django>=5.2.8,<5.3
+djangorestframework>=3.16,<3.17
+drf-spectacular>=0.28,<0.30
+psycopg[binary]>=3.2,<3.3
+dj-database-url>=2.3,<3
+celery[redis]>=5.5,<5.6
+requests>=2.32.4,<3
+PyMuPDF>=1.26,<1.27
+Pillow>=11.3,<13
+pytesseract>=0.3.13,<0.4
+reportlab>=4.4,<5
+gunicorn>=23,<24
